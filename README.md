@@ -13,4 +13,15 @@ This is the repository that holds the work from the Neuroecon lab for **Song Wor
 
 # Explanations of Content
 
-The folder has most scripts that are required to continue the research, however, most pre-trained vectors, lyrics corpuses, and other large files are not on the github due to the 100MB max repository size rule.
+The folder has most scripts that are required to continue the research, however, most pre-trained vectors, lyrics corpuses, and other large files are not on the github due to the 100MB max repository size rule. Reach out to albert_su@berkeley.edu and we can figure something out to get you the vectors and data.
+
+### Drugs of Abuse
+
+This holds the majority of the things used in the drugs of abuse project, where we tried to use the song corpus to predict the popularity of certain illegal drugs over time. The .ipynb are jupyter notebooks which were mostly used to scrape, clean, and merge different songs from the LyricsGenius API. One important file is the *billboard.py* script which is the scraper that gets data from the LyricsGenius API. Run this with **py billboard.py** to start scraping songs. However, you need the list of songs to do this which is not in the github repo. 
+
+### Glove
+
+This folder has everything required to train glove vectors. Simply add a corpus to the folder and modify the *demo.sh* file accordingly. Then run *make* and *demo.sh* in terminal to start training vectors. There are also instructions [here](https://github.com/stanfordnlp/GloVe) but they are not too clear so reach out if you have any questions.
+
+# Other
+Email albert_su@berkeley.edu if you have any questions and if you need the data.
